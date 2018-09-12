@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.accenture.app</groupId>
-  <artifactId>my-app-DarchetypeArtifactId=maven-archetype-webapp</artifactId>
-  <packaging>jar</packaging>
+  <artifactId>my-app</artifactId>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>my-app-DarchetypeArtifactId=maven-archetype-webapp</name>
+  <name>my-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -15,4 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <finalName>my-app</finalName>
+  </build>
 </project>
